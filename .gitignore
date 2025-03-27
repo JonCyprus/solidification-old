@@ -1,4 +1,13 @@
+#Ignore all picture files
 *.png
-Bessel - Fourier/*.mat
 *.jpg
-Fourier Method/*.mat
+
+#Ignore all of the .mat workspace files. If wanted download or use cloud
+*.mat
+
+# Keep the params file, although it is regenerated on two-body evolution run
+!onebody_params.mat
+
+#Ignore output and logs
+output/
+*.log
